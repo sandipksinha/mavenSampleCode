@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 5.147 sec <<< FAILURE!
+setupTest(example.IEtest)  Time elapsed: 5.066 sec  <<< FAILURE!
+org.openqa.selenium.remote.SessionNotFoundException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.16 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'sandipku', ip: '10.161.140.159', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:182)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:174)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:146)
+	at example.IEtest.setupTest(IEtest.java:32)
+

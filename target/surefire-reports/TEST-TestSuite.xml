@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="5.066" tests="8" errors="0" skipped="7" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\EclipseTestWorkSpace\WebDriverTest_Artifact1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\EclipseTestWorkSpace\WebDriverTest_Artifact1"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sandipku\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\EclipseTestWorkSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7936287730499779071.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Cybage Software Pvt. Ltd\CybagePCMClient\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;D:\maven\apache-maven-3.3.9\bin;D:\expedia\webServiceTesting\axis2Installed\axis2-1.7.4\bin;C:\Program Files\Git\cmd;D:\curl\curl;C:\xampp\php;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\sandipku"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sandipku"/>
+    <property name="java.class.path" value="/D:/expedia/work/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\EclipseTestWorkSpace\WebDriverTest_Artifact1\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="setupTest" classname="example.IEtest" time="5.066">
+    <failure message="Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.16 seconds&#10;Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;&#10;System info: host: &apos;sandipku&apos;, ip: &apos;10.161.140.159&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver" type="org.openqa.selenium.remote.SessionNotFoundException"><![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.16 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'sandipku', ip: '10.161.140.159', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:182)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:174)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:146)
+	at example.IEtest.setupTest(IEtest.java:32)
+]]></failure>
+    <system-err>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Started InternetExplorerDriver server (64-bit)
+3.0.0.0
+Listening on port 41225
+Only local connections are allowed
+</system-err>
+  </testcase>
+  <testcase name="beforeTest" classname="example.IEtest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupClass" classname="example.NewTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testEasy" classname="example.NewTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupClass" classname="example.IEtest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test" classname="example.IEtest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="example.IEtest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="example.NewTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
