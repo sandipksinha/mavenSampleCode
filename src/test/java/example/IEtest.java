@@ -50,5 +50,6 @@ public class IEtest {
 
 	    wait.until(ExpectedConditions.textToBePresentInElementLocated(By.tagName("body"),
 	        "Computer software")); // assert that the resulting page contains a text
+	    System.out.println("test completed....");
 	  }
 }
